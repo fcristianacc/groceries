@@ -22,9 +22,7 @@ class App extends React.Component {
           <h1 class="title">Tutti Mercado Online</h1>
           <div className="header">
             <div class="topnav">
-              <a class="active" href="#">
-                Início
-              </a>
+              <a href="#home">Início</a>
               <a href="#view-bakery">Padaria e Confeitaria</a>
               <a href="#view-butchery">Talho e Charcutaria</a>
               <a href="#view-fishery">Peixaria</a>
@@ -39,7 +37,7 @@ class App extends React.Component {
             </div>
           </div>
           <div className="content">
-            <Route path="/" component={Home} />
+            <Route path="/home" component={Home} />
             <Route path="/view-bakery" component={ViewBakery} />
             <Route path="/view-butchery" component={ViewButchery} />
             <Route path="/view-fishery" component={ViewFishery} />
