@@ -19,21 +19,21 @@ class App extends React.Component {
     return (
       <HashRouter>
         <div>
-          <h1 class="title">Tutti Mercado Online</h1>
+          <h1 class="title">Online Tutti Market</h1>
           <div className="header">
             <div class="topnav">
-              <a href="#home">Início</a>
-              <a href="#view-bakery">Padaria e Confeitaria</a>
-              <a href="#view-butchery">Talho e Charcutaria</a>
-              <a href="#view-fishery">Peixaria</a>
-              <a href="#view-dairygood">Laticínios</a>
-              <a href="#view-dryfood">Secos</a>
-              <a href="#view-beverage">Bebidas</a>
-              <a href="#view-cannedgood">Enlatados</a>
-              <a href="#view-freshfood">Frescos</a>
-              <a href="#view-frozenfood">Congelados</a>
-              <a href="#view-careproduct">Higiene e Beleza</a>
-              <a href="#view-householdproduct">Casa</a>
+              <a href="#home">Home</a>
+              <a href="#view-bakery">Bakery</a>
+              <a href="#view-butchery">Butchery</a>
+              <a href="#view-fishery">Fishery</a>
+              <a href="#view-dairygood">Dairy Goods</a>
+              <a href="#view-dryfood">Dry Food</a>
+              <a href="#view-beverage">Beverages</a>
+              <a href="#view-cannedgood">Canned Goods</a>
+              <a href="#view-freshfood">Fresh Food</a>
+              <a href="#view-frozenfood">Frozen Food</a>
+              <a href="#view-careproduct">Care Products</a>
+              <a href="#view-householdproduct">Household Products</a>
             </div>
           </div>
           <div className="content">
